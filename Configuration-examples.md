@@ -1,7 +1,5 @@
 
-### Application integration examples
-Base16 Universal Manager can support all applications listed in the base16 repo.
-For application-specific integration examples see the following list.
+
 
 #### alacritty
 - Repo: https://github.com/aaron-williamson/base16-alacritty
