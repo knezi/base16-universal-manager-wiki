@@ -6,10 +6,23 @@
 
 
 Example configuration:
+
+```yaml
+alacritty:
+enabled: true
+files:
+  default:
+  path: ~/.config/alacritty/alacritty.yml
+  mode: replace
+  start_marker: "# <<<<<<<<<<"
+  end_marker: "# >>>>>>>>>>"
 ```
 
-//TODO
+Replace the theme defition in the Alacritty onfig file by:
 
+```
+# <<<<<<<<<<
+# >>>>>>>>>>
 ```
 
 #### binary-ninja
