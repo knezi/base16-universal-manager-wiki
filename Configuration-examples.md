@@ -305,14 +305,25 @@ Example configuration:
 
 ```
 #### qutebrowser
-- Repo: TODO
+- Repo: https://github.com/theova/base16-qutebrowser
 
 Example configuration:
+
+```yaml
+qutebrowser:
+  enabled: true
+  files:
+    default:
+    path: ~/.config/qutebrowser/theme.py
+    mode: rewrite
 ```
 
-//TODO
+Example qutebrowser configuration:
 
+```python
+config.source('theme.py')
 ```
+
 #### radare2
 - Repo: TODO
 
